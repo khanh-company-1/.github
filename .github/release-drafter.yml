@@ -33,6 +33,9 @@ autolabeler:
 replacers:
   - search: '/MARP-(\d+)/g'
     replace: '[MARP-$1](https://1ivy.atlassian.net/browse/MARP-$1)'
+tag-prefix: 'v'
+commitish: 'main'
+filter-by-commitish: true
 template: |
   ## Changes
 
